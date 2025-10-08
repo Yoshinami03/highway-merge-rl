@@ -3,8 +3,8 @@ import gymnasium as gym
 from gymnasium import spaces
 from dataclasses import dataclass
 from typing import List, Tuple, Dict
-from ..core.types import VehicleState, ControlInput
-from ..physics.simple import Simple1DPhysics
+from core.types import VehicleState, ControlInput
+from physics.simple import Simple1DPhysics
 
 @dataclass
 class RoadSpec:

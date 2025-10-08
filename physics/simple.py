@@ -1,6 +1,6 @@
 import numpy as np
-from ..core.types import VehicleState, ControlInput
-from ..core.interfaces import PhysicsModel
+from core.types import VehicleState, ControlInput
+from core.interfaces import PhysicsModel
 
 class Simple1DPhysics(PhysicsModel):
     def __init__(self, a_max=3.0, a_min=-5.0, v_min=0.0, v_max=33.0):
